@@ -1,5 +1,7 @@
 # Sistema de inventario y ventas multi-almacén (PostgreSQL)
 
+[![tests](https://github.com/MiguelAguir/inventory-sales-system/actions/workflows/ci.yml/badge.svg)](https://github.com/MiguelAguir/inventory-sales-system/actions/workflows/ci.yml)
+
 Proyecto de portafolio de **Data Analyst / Data Engineering junior**: un sistema
 transaccional de inventario y ventas para dos almacenes, modelado en PostgreSQL,
 con reglas de negocio en la base de datos, controles de calidad, consultas
