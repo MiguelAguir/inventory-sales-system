@@ -112,9 +112,9 @@ hay que ajustar `_ensure_database()` en `src/setup_metabase.py`.
 | Las tarjetas no cargan datos | La base `inventory` está vacía. | `python -m src.pipeline seed --reset`. |
 | Error de conexión desde Metabase | Se cambió el puerto o el nombre del servicio. | Revisar `.env` y `docker-compose.yml`. |
 
-Metabase corre con H2 embebido y `-Xmx1g`, suficiente para esta demo. Para
-producción se usaría PostgreSQL como base de aplicación y un despliegue con
-autenticación real; está fuera del alcance.
+Metabase corre con H2 embebido y `-Xmx1g`, suficiente para esta demo. En
+producción se usaría PostgreSQL como base de aplicación de Metabase, con
+respaldos y autenticación real; está fuera del alcance.
 
 ## Captura
 
