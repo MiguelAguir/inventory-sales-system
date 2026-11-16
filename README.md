@@ -74,7 +74,7 @@ Hallazgos que el modelo permite sostener:
   inventario), con un promedio simple de 12.30.
 - Hay 3 combinaciones producto/almacén sin stock y 25 por debajo del mínimo; el
   capital inmovilizado en productos sin venta reciente es pequeño (S/ 2,483.31),
-  concentrado en EPP del almacén Sur.
+  todo en EPP y con la mitad de las filas en el almacén Sur.
 
 ## Arquitectura
 
